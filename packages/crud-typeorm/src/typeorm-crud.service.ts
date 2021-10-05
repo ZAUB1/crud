@@ -28,7 +28,10 @@ import {
 } from '@nestjsx/util';
 import { oO } from '@zmotivat0r/o0';
 import { plainToClass } from 'class-transformer';
-import { ClassType } from 'class-transformer/ClassTransformer';
+// import { ClassType } from 'class-transformer/ClassTransformer';
+export type ClassType<T> = {
+  new (...args: any[]): T;
+};
 import {
   Brackets,
   ObjectLiteral,
