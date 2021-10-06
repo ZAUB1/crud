@@ -1,81 +1,44 @@
 {
-  "name": "@nestjsx/crud",
-  "version": "4.0.0",
-  "description": "Nest CRUD for RESTful APIs",
+  "name": "@nestjsx/crud-typeorm",
+  "description": "NestJs CRUD for RESTful APIs - TypeORM",
+  "version": "4.6.2",
   "license": "MIT",
-  "workspaces": [
-    "packages/*"
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "lib"
   ],
-  "private": true,
-  "scripts": {
-    "bootstrap": "npx lerna bootstrap",
-    "s": "npx nps",
-    "s:list": "yarn s --scripts",
-    "rebuild": "yarn clean && yarn build",
-    "build": "yarn s build"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nestjsx/crud.git"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-conventional-changelog"
-    },
-    "validate-commit-msg": {
-      "types": "conventional-commit-types",
-      "helpMessage": "Use \"yarn commit\" instead, we use conventional-changelog format :) (https://github.com/commitizen/cz-cli)"
-    }
+  "bugs": {
+    "url": "https://github.com/nestjsx/crud/issues"
   },
-  "husky": {
-    "hooks": {
-    }
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/nestjsx",
-    "donation": {
-      "text": "Become a partner:"
-    }
-  },
-  "peerDependencies": {},
-  "optionalDependencies": {},
-  "dependencies": {
-    "@nestjs/common": "7.0.3",
-    "@nestjs/core": "7.0.3",
-    "@nestjs/platform-express": "7.0.3",
-    "@nestjs/swagger": "4.4.0",
-    "@nestjs/typeorm": "7.0.0",
-    "@types/node": "12.7.5",
-    "@types/qs": "6.5.3",
-    "@types/supertest": "2.0.8",
-    "class-transformer": "^0.4.0",
-    "class-validator": "0.10.0",
-    "commitizen": "4.0.3",
-    "cz-conventional-changelog": "3.0.2",
-    "husky": "3.0.5",
-    "jest": "24.9.0",
-    "jest-extended": "0.11.2",
-    "lerna": "3.16.4",
-    "npm-check": "5.9.0",
-    "nps": "5.9.8",
-    "nps-utils": "1.7.0",
-    "prettier": "1.18.2",
-    "pretty-quick": "1.11.1",
-    "qs": "6.8.0",
-    "reflect-metadata": "0.1.13",
-    "rimraf": "3.0.0",
-    "rxjs": "6.5.3",
-    "supertest": "4.0.2",
-    "swagger-ui-express": "4.1.0",
-    "ts-node": "8.3.0",
-    "tsconfig-extends": "1.0.1",
-    "tsconfig-paths": "3.9.0",
-    "tslint": "5.20.0",
-    "tslint-config-prettier": "1.18.0",
-    "typeorm": "0.2.19",
-    "typescript": "3.6.3",
-    "validate-commit-msg": "2.14.0"
-  },
-  "devDependencies": {},
+  "keywords": [
+    "typescript",
+    "typeorm",
+    "nest",
+    "nestjs",
+    "rest",
+    "restful",
+    "api",
+    "crud",
+    "crud-generator",
+    "backend",
+    "frameworks"
+  ],
   "author": {
     "name": "Michael Yali",
     "email": "mihon4ik@gmail.com"
+  },
+  "scripts": {
+    "build": "npx tsc -b"
+  },
+  "dependencies": {
+    "@zmotivat0r/o0": "^1.0.2"
   }
 }

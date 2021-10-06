@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>CRUD</h1>
+  <h1>CRUD (@nestjsx/crud-typeorm)</h1>
 </div>
 <div align="center">
   <strong>for RESTful APIs built with NestJs</strong>
@@ -50,14 +50,11 @@
 </div>
 
 <div align="center">
-  <sub>Built with :purple_heart: by
+  <sub>Built by
   <a href="https://twitter.com/MichaelYali">@MichaelYali</a> and
   <a href="https://github.com/nestjsx/crud/graphs/contributors">
     Contributors
   </a>
-  <div align="center">
-    :star2: :eyes: :zap: :boom:
-  </div>
 </div>
 
 <br />
@@ -66,25 +63,31 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 
 ## Features
 
-<img align="right" src="img/crud-usage2.png" alt="CRUD usage" />
+<img align="right" src="https://raw.githubusercontent.com/nestjsx/crud/master/img/crud-usage2.png" alt="CRUD usage" />
 
-- :electric_plug: Super easy to install and start using the full-featured controllers and services :point_right:
+- Super easy to install and start using the full-featured controllers and services :point_right:
 
-- :octopus: DB and service agnostic extendable CRUD controllers
+- DB and service agnostic extendable CRUD controllers
 
-- :mag_right: Reach query parsing with filtering, pagination, sorting, relations, nested relations, cache, etc.
+- Reach query parsing with filtering, pagination, sorting, relations, nested relations, cache, etc.
 
-- :telescope: Framework agnostic package with query builder for a frontend usage
+- Framework agnostic package with query builder for a frontend usage
 
-- :space_invader: Query, path params and DTOs validation included
+- Query, path params and DTOs validation included
 
-- :clapper: Overriding controller methods with ease
+- Overriding controller methods with ease
 
-- :wrench: Tiny config (including globally)
+- Tiny config (including globally)
 
-- :gift: Additional helper decorators
+- Additional helper decorators
 
-- :pencil2: Swagger documentation
+- Swagger documentation
+
+## Install
+
+```shell
+npm i @nestjsx/crud-typeorm @nestjs/typeorm typeorm
+```
 
 ## Packages
 
@@ -94,20 +97,20 @@ We believe that everyone who's working with NestJs and building some RESTful ser
 
 ## Documentation
 
-- :dart: [General Information](https://github.com/nestjsx/crud/wiki#why)
-- :video_game: [CRUD Controllers](https://github.com/nestjsx/crud/wiki/Controllers#description)
-- :horse_racing: [CRUD ORM Services](https://github.com/nestjsx/crud/wiki/Services#description)
-- :trumpet: [Handling Requests](https://github.com/nestjsx/crud/wiki/Requests#description)
+- [General Information](https://github.com/nestjsx/crud/wiki#why)
+- [CRUD Controllers](https://github.com/nestjsx/crud/wiki/Controllers#description)
+- [CRUD ORM Services](https://github.com/nestjsx/crud/wiki/Services#description)
+- [Handling Requests](https://github.com/nestjsx/crud/wiki/Requests#description)
 
 ## Support
 
-Any support is welcome. At least you can give us a star :star:
+Any support is welcome. At least you can give us a star.
 
 ## Contributors
 
 ### Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CODE_OF_CONDUCT.md)].
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
 <a href="https://github.com/nestjsx/crud/graphs/contributors"><img src="https://opencollective.com/nestjsx/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
